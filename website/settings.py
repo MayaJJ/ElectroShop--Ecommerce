@@ -26,14 +26,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = ')9&b2*-19ld600y_3+g6liui5!d)kc-w)nj(xklm+tmj8#oj_d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-mayajj-electroshopecomm-ri6ac5zri5b.ws-us114.gitpod.io']
+ALLOWED_HOSTS = ['electroshop-fed348a3be5e.herokuapp.com', '8000-mayajj-electroshopecomm-ri6ac5zri5b.ws-us114.gitpod.io']
 
-CSRF_COOKIE_DOMAIN = 'mayajj-electroshopecomm-ri6ac5zri5b.ws-us114.gitpod.io'
+CSRF_COOKIE_DOMAIN = 'electroshop-fed348a3be5e.herokuapp.com'
 CSRF_COOKIE_SECURE = True
-CSRF_TRUSTED_ORIGINS = ['https://8000-mayajj-electroshopecomm-ri6ac5zri5b.ws-us114.gitpod.io']
-CSRF_COOKIE_DOMAIN = '8000-mayajj-electroshopecomm-ri6ac5zri5b.ws-us114.gitpod.io'
+CSRF_TRUSTED_ORIGINS = ['electroshop-fed348a3be5e.herokuapp.com']
+CSRF_COOKIE_DOMAIN = 'electroshop-fed348a3be5e.herokuapp.com'
+
+
+# CSRF_COOKIE_DOMAIN = 'mayajj-electroshopecomm-ri6ac5zri5b.ws-us114.gitpod.io'
+# CSRF_COOKIE_SECURE = True
+# CSRF_TRUSTED_ORIGINS = ['https://8000-mayajj-electroshopecomm-ri6ac5zri5b.ws-us114.gitpod.io']
+# CSRF_COOKIE_DOMAIN = '8000-mayajj-electroshopecomm-ri6ac5zri5b.ws-us114.gitpod.io'
 
 SITE_ID = 1
 
