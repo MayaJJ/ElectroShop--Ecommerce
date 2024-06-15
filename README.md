@@ -125,6 +125,12 @@ Our business model focuses on providing a wide range of products with a seamless
 - **Bootstrap**: CSS framework for responsive, mobile-first front-end web development.
 
 
+## 404 Page
+
+![404](https://github.com/MayaJJ/ElectroShop--Ecommerce/assets/127303012/0d4154da-725c-4dd1-bfb6-569a126f264c)
+
+
+
 ## Preview ElectroShop
 
 ![preview](https://github.com/MayaJJ/ElectroShop--Ecommerce/assets/127303012/3544a085-3055-4191-a3d9-908063d116d8)
